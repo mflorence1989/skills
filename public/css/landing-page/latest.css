@@ -1,0 +1,207 @@
+#latest{
+  padding-top: 70px;
+  padding-bottom: 270px;
+}
+#latest .header{
+padding: 50px 0;
+}
+#latest .header:after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+#latest .header h1{
+  color: #6066F2;
+  font-size: 3rem;
+  width:100%;
+  max-width: 400px;
+  display: inline-block;
+  float: left;
+}
+#latest .header .directions{
+float: right;
+display: inline-block;
+position: relative;
+top: 0;
+}
+#latest .header .directions .move-left{
+float: left;
+font-size: 3rem;
+background:#6066F2;
+color:white;
+padding: 20px 50px;
+border: 1px solid white;
+border-radius: 5%;
+cursor: pointer;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+#latest .header .directions .move-right{
+float: right;
+font-size: 3rem;
+background:#f9f9f9;
+color:grey;
+padding: 20px 50px;
+border-radius: 5%;
+cursor: pointer;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+
+}
+#latest .body{
+padding: 100px 0;
+}
+#latest .body:after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+#latest .body .column{
+text-align: center;
+width: 33.3%;
+float: left;
+padding: 0 15px;
+}
+#latest .body .column .bg-square{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+   margin-bottom: 20px;
+
+  position: relative;
+  background: rgb(242,246,248); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#latest .body .column .bg-square img{
+  width: 80%;
+  top:91px;
+  right:23px;
+  position: absolute;
+
+}
+#latest .body .column .bg-square .cart{
+  border-radius: 50%;
+  width:80px;
+  height:80px;
+  background: rgb(242,246,248); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  border: 10px solid white;
+  position: relative;
+  float: right;
+  top: -17px;
+  left:14px;
+
+}
+#latest .body .column .bg-square .cart .fas{
+  font-size: 2rem;
+  color:white;
+  top:16px;
+  left:10px;
+  position: absolute;
+}
+#latest .body .column .line{
+  width:20%;
+  background: #6066F2;
+  height: 2px;
+  margin: 50px auto;
+}
+#latest .body .column .price{
+  color:#FEA83B;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+#latest .footer{
+  text-align: center;
+  position: relative;
+}
+#latest .footer:after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+#latest .footer img{
+  width:90%;
+  z-index: 1;
+  top:0;
+
+  left: 68px;
+  position: absolute;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%) invert(100%);
+opacity: .3;
+}
+#latest .footer .info-box{
+  position: relative;
+  z-index: 2;
+  padding: 200px 0;
+  left:20px;
+  top:180px;
+}
+#latest .footer  h2{
+  font-size: 4.5rem;
+
+}
+
+
+#latest .footer .info-box .input-area{
+  background: white;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
+
+}
+#latest .footer .info-box .input-area .far{
+font-size: 2rem;
+position: relative;
+top: 7px;
+margin-left: -2px;
+opacity: .1;
+
+}
+#latest .footer .info-box .input-area .fas{
+font-size: 2rem;
+position: relative;
+top: 7px;
+margin-left: -2px;
+opacity: .1;
+
+}
+#latest .footer .info-box .input-area input{
+background: white;
+border: none;
+padding: 10px;
+width: 230px;
+
+}
+#latest .footer .info-box .input-area:nth-child(1){
+height:70px;
+display: inline-block;
+}
+#latest .footer .info-box .input-area:nth-child(2){
+height:70px;
+display: inline-block;
+}
+#latest .footer .info-box .input-area button{
+  background: #6066F2;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 15px 50px;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+#latest .footer .info-box form {
+display: inline-block;
+vertical-align: top;
+left:25px;
+}
+#latest .footer .info-box form .inpu-area {
+
+}

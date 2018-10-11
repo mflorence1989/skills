@@ -1,0 +1,47 @@
+footer{
+  padding-top: 80px;
+  background: #6066F2;
+}
+footer p {
+  text-align: center;
+  color:white;
+  font-size: 2rem;
+  font-weight:400;
+  padding:10px 20px;
+}
+footer  h2{
+color: #FEA83B;
+text-align: center;
+font-size: 4rem;
+text-transform: capitalize;
+font-weight: 600;
+margin-bottom: 50px;
+
+}
+footer h2 span {
+  color:white;
+}
+footer .menu  {
+margin-bottom: 50px;
+}
+footer .menu li {
+  margin-left: 150px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  right:50px;
+}
+
+footer .container  ul li a {
+color:white;
+text-decoration: none;
+}
+footer .icons li{
+  margin-left: 250px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+
+}

@@ -1,0 +1,124 @@
+#design-by{
+position: relative;
+top: -140px;
+}
+#design-by .design-container{
+/* position: absolute; */
+/* top:-100px;
+width: 100%; */
+position: relative;
+}
+#design-by .design-container .bg-image{
+/* position: absolute; */
+/* top:-100px;
+width: 100%; */
+position: absolute;
+width: 500px;
+z-index: 0;
+}
+
+#design-by .design-container .info-section{
+background: #6066F2;
+width: 40%;
+display: inline-block;
+float:left;
+padding: 45px;
+}
+#design-by .design-container .icons-section{
+ width: 60%;
+ background: white;
+display: inline-block;
+float:left;
+}
+#design-by .design-container .info-section h5{
+color: #FEA83B;
+font-size: 1.4rem;
+text-transform: uppercase;
+margin-bottom: 2rem;
+}
+#design-by .design-container .info-section h3{
+color: white;
+font-size: 2.7rem;
+margin-bottom: 2rem;
+
+}
+#design-by .design-container .info-section .info-list{
+margin-bottom: 4rem;
+}
+#design-by .design-container .info-section .info-list li{
+color: white;
+font-size: 1rem;
+font-weight: 300;
+list-style: none;
+margin-bottom: 14.5px;
+vertical-align: top;
+
+
+}
+#design-by .design-container .info-section .info-list .circle{
+ /* display: inline-block;
+border-radius: 50%;
+width: 26px;
+height: 26px;
+background: #FEA83B;
+margin-right: 10px;
+position: relative; */
+}
+#design-by .design-container .info-section .white-btn{
+background: white;
+border-radius: 50px;
+text-decoration: none;
+padding: 20px 65px;
+text-transform: uppercase;
+font-size: 1rem;
+font-weight: 700;
+display: inline-block;
+
+}
+#design-by .design-container .info-section .info-list .circle .fas{
+display: inline-block;
+border-radius: 50%;
+width: 15px;
+height: 15px;
+background: #FEA83B;
+margin-right: 10px;
+
+
+}
+#design-by .design-container .icons-section .icon-box{
+float: left;
+display: inline-block;
+width: 50%;
+height: 208px;
+text-align: center;
+border: 1px solid #eee9e9;
+}
+#design-by .design-container .icons-section .icon-box .fas{
+color:blue;
+margin-top:25%;
+font-size: 24px;
+}
+#design-by .design-container .icons-section .icon-box .title{
+text-transform: capitalize;
+font-size: 15px;
+font-weight: 400;
+color:black;
+margin-top: 10px;
+
+}
+#design-by .design-container .icons-section .icon-box .far{
+  color:blue;
+  margin-top:25%;
+  font-size: 24px;
+}
+
+
+#design-by .design-container .icons-section .refresh-circle .fas {
+ position: absolute;
+ right: 322px;
+ top:191px;
+ font-size: 24px;
+ padding: 10px;
+ background: grey;
+ border-radius: 50%;
+}

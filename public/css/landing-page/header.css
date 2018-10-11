@@ -1,0 +1,69 @@
+header{
+  padding: 30px 20px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom:50px;
+}
+header:after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+header a {
+  color: #4C44C1;
+  padding:10px;
+  font-size: .8rem;
+  text-decoration: none;
+
+}
+header .logo {
+  display: inline-block;
+  float: left;
+  margin-right: 28px;
+}
+header .logo .fas{
+  font-size: 3rem;
+}
+header .menu {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 20px;
+}
+header .menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+header .header-buttons {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 1px;
+
+}
+header .header-buttons .orange-btn{
+  background: #FEA83B;
+  padding: 14px 46px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+
+}
+header .header-buttons .blue-btn .fas{
+margin-left: 15px;
+}
+header .header-buttons .blue-btn{
+background: #6066F2;
+padding: 14px 46px;
+color: white;
+border-radius: 35px;
+text-transform: uppercase;
+text-decoration: none;
+position: relative;
+top: 20px;
+}
